@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background.gif")
+}
+
+div#wrapper {
+    border: 10px white solid;
+    background: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div#header {
+    background: #A8F0F0;
+    text-align: right;
+}
+
+div#article img {
+    float: right;
+}
+
+#friends {
+    margin-top: 10px;
+    border: 4px #009097 solid;
+    width: 24%;
+    float: left;
+}
+
+#wrapper *:hover  {
+    border: 4px yellow solid;
+}
+
+#articles {
+    width: 75%;
+    float: right;
+}
+
+#content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+div#article {
+    margin-top: 10px;
+    clear: both;
+    padding: 5px;
+    border: 5px #C2E9E9  solid;
+    background: #E8FBFB;
+    overflow: auto;
+}
+
+span.date {
+    border-bottom: 2px #009097 dashed;
+}
+
+#header h2 {
+    font-size: 14pt;
+}
+
+
